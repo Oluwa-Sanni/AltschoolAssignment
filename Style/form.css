@@ -1,0 +1,253 @@
+body{
+    margin: 0px auto;
+    padding: 0px;
+    font-family: sans-serif;
+    font-size: 16px;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    /* height: 100vh; */
+}
+
+.left, .right {
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.left {
+    background: #fffcf8;
+    padding-top: 67px;
+    /* width: 50%; */
+}
+
+.left .imagewrapper{
+    width: 100%;
+    height: 370px;
+}
+
+.left .imagewrapper img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.left .leftbase{
+    display: block;
+    background-color: white;
+}
+
+.left h1 {
+    display: block;
+    text-align: center;
+    margin-bottom: 25px;
+    font-family: sans-serif;
+    line-height: 72px;
+    font-size: 3.1875rem;
+    font-weight: 500;
+}
+
+.left footer{
+    margin-bottom: 5rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.left footer section{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.left footer a{
+    color: #000812;
+    line-height: 180%;
+    letter-spacing: 0.02rem;
+    font-size: 0.75rem;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.left footer span{
+    line-height: 30px;
+    color: #000812;
+    font-size: .875rem;
+    letter-spacing: -.01rem;
+}
+
+.right{
+    /* width: 100%; */
+    height: 100vh;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.right .rightdiv{
+    width: 100%;
+    min-height: 90vh;
+    border-radius: 4px;
+    padding: 40px;
+}
+
+.right .rightdiv .logo {
+    display: none;
+}
+
+.right section {
+    width: 90%;
+    padding: 70px 30px;
+}
+
+.right .rightdiv header p{
+    text-align: right;
+    margin-top: 0;
+    margin-bottom: 1em;
+    display: block;
+    font-family: sans-serif;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.right .rightdiv header p a{
+    text-decoration: none;
+    color: #0367f2;
+}
+
+.right .rightdiv .formpage {
+    padding: 70px 30px;
+}
+
+.right .rightdiv .formpage h1{
+    font-size: 1.75rem;
+    color: rgb(11, 30, 75);
+    line-height: 30px;
+    margin-bottom: 10px;
+}
+
+.right .rightdiv .formpage p{
+    font-size: 1rem;
+    color: rgb(133, 136, 141);
+    line-height: 20px;
+    margin-bottom: 25px;
+}
+
+.right .rightdiv .formpage .form{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: rgba(0, 0, 0, 0.88);
+    font-size: 14px;
+    line-height: 1.5714285714285714;
+    list-style: none;
+    display: block;
+}
+
+.right .rightdiv .formpage .form .input{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+}
+
+.right .rightdiv .formpage .form .survey{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
+}
+
+.right .rightdiv .formpage .form .input label{
+    padding-bottom: 0px;
+    text-align: left;
+    color: rgb(11, 30, 75);
+    font-size: 1rem;
+    height: unset;
+}
+
+.right .rightdiv .formpage .form .input input{
+    position: relative;
+    display: flex;
+    align-items: center;
+    min-height: 32px;
+    background-color: whitesmoke;
+    border-radius: 5px;
+    border: none;
+}
+
+.right .rightdiv .formpage .form footer p{
+    font-size: 1rem;
+    color: rgb(133, 136, 141);
+    line-height: 20px;
+    margin-bottom: 25px;
+    margin-top: 0;
+    font-weight: 500;
+}
+
+.right .rightdiv .formpage .form footer p a{
+    text-decoration: none;
+    color: rgb(32, 84, 210);
+}
+
+.right .rightdiv .formpage .form button{
+    width: 100%;
+    padding: 16px 0px;
+    background-color: rgb(106, 111, 245);
+    color: white;
+    display: flex;
+    gap: 10px;
+    border: none;
+    border-radius: 10px;
+    align-content: center;
+    justify-content: center;
+    transition: 0.3s ease-in-out;
+}
+
+/* .right section h1{
+    margin-bottom: 10px;
+    line-height: 30px;
+    font-size: 1.75rem;
+    font-family: sans-serif;
+    color: rgb(11, 30, 75);
+}
+
+.right section p{
+    margin-bottom: 25px;
+    line-height: 20px;
+    font-size: 1rem;
+    font-family: sans-serif;
+    color: rgb(133, 136, 141);
+} */
+
+/* .right section form{
+    margin: 0;
+    padding: 0;
+    color: rgba(0, 0, 0, 0.88);
+    font-size: 14px;
+    box-sizing: border-box;
+    line-height: 1.5714285714285714;
+    list-style: none;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.right section form .name{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 25px;
+}
+
+.right section form .name .firstname {
+    display: flex;
+    flex-flow: row-wrap;
+    min-width: 0;
+}
+
+.right section form .name .firstname label{
+    font-size: 1rem;
+    padding-bottom: 5px;
+    font-family: sans-serif;
+    text-align: left;
+    height: unset;
+} */
