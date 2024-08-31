@@ -160,6 +160,24 @@ body{
     gap: 10px;
 }
 
+.right .rightdiv .formpage .form .survey label{
+    padding-bottom: 0px;
+    text-align: left;
+    color: rgb(11, 30, 75);
+    font-size: 1rem;
+    height: unset;
+}
+
+.right .rightdiv .formpage .form .survey select{
+    position: relative;
+    display: flex;
+    align-items: center;
+    min-height: 32px;
+    background-color: whitesmoke;
+    border-radius: 5px;
+    border: none;
+}
+
 .right .rightdiv .formpage .form .input label{
     padding-bottom: 0px;
     text-align: left;
