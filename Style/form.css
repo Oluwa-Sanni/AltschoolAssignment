@@ -150,7 +150,8 @@ body{
 .right .rightdiv .formpage .form .input{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 10px;
+    /* flex-direction: row; */
+    gap: 25px;
 }
 
 .right .rightdiv .formpage .form .survey{
@@ -168,6 +169,16 @@ body{
 }
 
 .right .rightdiv .formpage .form .input input{
+    position: relative;
+    display: flex;
+    align-items: center;
+    min-height: 32px;
+    background-color: whitesmoke;
+    border-radius: 5px;
+    border: none;
+}
+
+.right .rightdiv .formpage .form .input select{
     position: relative;
     display: flex;
     align-items: center;

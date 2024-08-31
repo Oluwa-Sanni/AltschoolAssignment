@@ -2,6 +2,11 @@ body{
     margin: 0 auto;
     background-color: #12343b;
 }
+.container{
+    display: grid;
+    margin: 0 auto;
+    padding: 20px;
+}
 
 .top #navigation{
     display: flex;
@@ -30,7 +35,7 @@ body{
     /* background-color: #12343b; */
     display: grid;
     justify-content: center;
-    
+
 }
 
 .mainpage .tablediv .table caption{

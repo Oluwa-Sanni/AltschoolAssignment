@@ -2,6 +2,13 @@ body {
     display: flexbox;
     margin: 0 auto;
     width: 100%;
+    /* padding: 20px; */
+}
+
+.container{
+    display: grid;
+    margin: 0 auto;
+    padding: 20px;
 }
 
 .logo{
