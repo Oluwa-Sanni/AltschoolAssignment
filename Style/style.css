@@ -1,6 +1,11 @@
 body {
     display: flexbox;
     margin: 0 auto;
+    width: 100%;
+}
+
+.logo{
+    margin-left: 20px;
 }
 
 #navigation{

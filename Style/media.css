@@ -1,0 +1,38 @@
+body{
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #c89666;
+}
+
+.top #navigation{
+    display: flex;
+    justify-content: right;
+    margin: 10px;
+    transition: 0.3s ease-in-out;
+}
+    
+.top #navigation a{
+    text-decoration: none;
+    color: #101357;
+    padding: 10px 10px;
+}
+    
+.top #navigation a:hover{
+    background-color:#101357;
+    color: white;
+    font-size: large;
+    font: bold;
+    border-radius: 10px;
+    transition-duration: 1ms;
+}
+
+.top main{
+    display: grid;
+    justify-content: center;
+    border-top: 1px solid #101357;
+    font-size: large;
+}
+
+h2, h4 {
+    font-size: larger;
+}
