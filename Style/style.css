@@ -9,6 +9,7 @@ body {
     display: grid;
     margin: 0 auto;
     padding: 20px;
+    width: 100%;
 }
 
 .logo{
@@ -69,3 +70,10 @@ main footer #top {
     padding: 2px 2px;
     color: whitesmoke;
 }
+
+/* @media (max-width: 800px) {
+    .container{ 
+        display: flex;
+        flex-direction: column;
+    }   
+} */
