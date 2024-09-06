@@ -4,6 +4,17 @@ body{
     background-color: #c89666;
 }
 
+.top{
+    display: flexbox;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.top img{
+    border-radius: 50%;
+}
+
 .top #navigation{
     display: flex;
     justify-content: right;
