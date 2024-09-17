@@ -79,12 +79,47 @@ body{
 }
 
 @media screen and (max-width: 800px) {
+
+    body{
+        margin: 0px;
+        padding: 0px;
+        overflow-x: hidden;
+        scroll-behavior: smooth;
+        width: 100%;
+        height: 100%;
+    }
+    .container{
+        width: 100%;
+        height: 100vh;
+        display: flex;
+    }
     .left{
         display: none;
     }
     .right{
         width: 100%;
-        
+        height: 100vh;
+        overflow-y: auto;
+        padding: 0;
+    }
+    .right .rightdiv{
+        width: 100%;
+        padding: 0;
+    }
+    .right .rightdiv .logo img{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+    .right .rightdiv .formpage{
+        padding: 15px 15px 90px;
+        width: 100%;
+    }
+
+    .right .rightdiv .formpage .form .input{
+        gap: 0px;
+        display: block;
+        grid-template-columns: 1fr;
     }
 }
 .right{
