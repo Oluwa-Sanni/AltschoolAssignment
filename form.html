@@ -50,93 +50,115 @@
                     <p>Take the next steps to apply at AltSchool Africa</p>
                     <form class="form">
                         <div class="input">
+                            <div class="first">
                                 <label>First Name</label><br>
                                 <input type="text" placeholder="Enter first name" required="required"><br>
-                            <label>Last Name</label><br>
-                            <input type="text" placeholder="Enter last name" required><br>
+                            </div>
+                            <div class="first"> 
+                                <label>Last Name</label><br>
+                                <input type="text" placeholder="Enter last name" required><br>
+                            </div>
                         </div>
                         <div class="input">
-                            <label id="gender">Gender</label><br>
-                            <select id="gender" placeholder="select gender">
-                                <option value="" selected disabled hidden> Select gender </option>
-                                <option value="Female">Female</option>
-                                <option value="Male">Male</option>
-                            </select><br>
-                            <label>Date of Birth</label><br>
-                            <input type="date"><br>
+                            <div class="first">
+                                <label id="gender">Gender</label><br>
+                                <select id="gender" placeholder="select gender" role="combobox" aria-expanded="false" aria-haspopup="listbox">
+                                    <option value="" selected disabled hidden> Select gender </option>
+                                    <option value="Female">Female</option>
+                                    <option value="Male">Male</option>
+                                </select><br>
+                            </div>
+                            <div class="first">
+                                <label>Date of Birth</label><br>
+                                <input type="date"><br>
+                            </div>
                         </div>
                         <div class="input">
-                            <label>Email Address</label><br>
-                            <input type="email" placeholder="Enter email address"><br>
-                            <label>Phone Number</label><br>
-                            <input type="number" placeholder="08154387000"><br>
+                            <div class="first">
+                                <label>Email Address</label><br>
+                                <input type="email" placeholder="Enter email address"><br>
+                            </div>
+                            <div class="first">
+                                <label>Phone Number</label><br>
+                                <input type="number" placeholder="08154387000"><br>
+                            </div>
                         </div>
                         <div class="input">
-                            <label id="country">Country</label><br>
-                            <select id="country">
-                                <option value="" selected disabled hidden> Select Your Country </option>
-                                <option value="Afghanistan">Afghanistan</option>
-                                <option value="Albania">Albania</option>
-                                <option value="Algeria">Algeria</option>
-                                <option value="Andorra">Andorra</option>
-                                <option value="Angola">Angola</option>
-                                <option value="Antigua">Antigua</option>
-                                <option value="Argentina">Argentina</option>
-                                <option value="Armenia">Armenia</option>
-                                <option value="Australia">Australia</option>
-                                <option value="Austria">Austria</option>
-                                <option value="Azerbaijan">Azerbaijan</option>
-                                <option value="Bahamas">Bahamas</option>
-                                <option value="Bahrain">Bahrain</option>
-                                <option value="Bangladesh">Bangladesh</option>
-                                <option value="Barbados">Barbados</option>
-                                <option value="Belgium">Belgium</option>
-                                <option value="Belize">Belize</option>
-                                <option value="Benin">Benin</option>
-                                <option value="Bhutan">Bhutan</option>
-                                <option value="Bolivia">Bolivia</option>
-                                <option value="Bosnia Herzegovina">Bosnia Herzegovina</option>
-                                <option value="Botswana">Botswana</option>
-                                <option value="Brazil">Brazil</option>
-                                <option value="Brunei">Brunei</option>
-                                <option value="Bulgaria">Bulgaria</option>
-                                <option value="Burkina">Burkina</option>
-                                <option value="Burundi">Burundi</option>
-                                <option value="Cambodia">Cambodia</option>
-                                <option value="Cameroon">Cameroon</option>
-                                <option value="Canada">Canada</option>
-                                <option value="Cape Verde">Cape Verde</option>
-                                <option value="Central African Rep">Central African Rep</option>
-                                <option value="Chad">Chad</option>
-                                <option value="Chile">Chile</option>
-                                <option value="China">China</option>
-                                <option value="Colombia">Colombia</option>
-                                <option value="Comoros">Comoros</option>
-                            </select><br>
-                            <label>State/City of Residence</label><br>
-                            <input type="text" placeholder="Enter your state of Residence"><br>
+                            <div class="first">
+                                <label id="country">Country</label><br>
+                                <select id="country">
+                                    <option value="" selected disabled hidden> Select Your Country </option>
+                                    <option value="Afghanistan">Afghanistan</option>
+                                    <option value="Albania">Albania</option>
+                                    <option value="Algeria">Algeria</option>
+                                    <option value="Andorra">Andorra</option>
+                                    <option value="Angola">Angola</option>
+                                    <option value="Antigua">Antigua</option>
+                                    <option value="Argentina">Argentina</option>
+                                    <option value="Armenia">Armenia</option>
+                                    <option value="Australia">Australia</option>
+                                    <option value="Austria">Austria</option>
+                                    <option value="Azerbaijan">Azerbaijan</option>
+                                    <option value="Bahamas">Bahamas</option>
+                                    <option value="Bahrain">Bahrain</option>
+                                    <option value="Bangladesh">Bangladesh</option>
+                                    <option value="Barbados">Barbados</option>
+                                    <option value="Belgium">Belgium</option>
+                                    <option value="Belize">Belize</option>
+                                    <option value="Benin">Benin</option>
+                                    <option value="Bhutan">Bhutan</option>
+                                    <option value="Bolivia">Bolivia</option>
+                                    <option value="Bosnia Herzegovina">Bosnia Herzegovina</option>
+                                    <option value="Botswana">Botswana</option>
+                                    <option value="Brazil">Brazil</option>
+                                    <option value="Brunei">Brunei</option>
+                                    <option value="Bulgaria">Bulgaria</option>
+                                    <option value="Burkina">Burkina</option>
+                                    <option value="Burundi">Burundi</option>
+                                    <option value="Cambodia">Cambodia</option>
+                                    <option value="Cameroon">Cameroon</option>
+                                    <option value="Canada">Canada</option>
+                                    <option value="Cape Verde">Cape Verde</option>
+                                    <option value="Central African Rep">Central African Rep</option>
+                                    <option value="Chad">Chad</option>
+                                    <option value="Chile">Chile</option>
+                                    <option value="China">China</option>
+                                    <option value="Colombia">Colombia</option>
+                                    <option value="Comoros">Comoros</option>
+                                </select><br>
+                            </div>
+                            <div class="first">
+                                <label>State/City of Residence</label><br>
+                                <input type="text" placeholder="Enter your state of Residence"><br>
+                            </div>
                         </div>
                         <div class="survey">
-                            <label id="survey">How did you hear about us?</label><br>
-                            <select id="survey">
-                                <option value="" selected disabled hidden> Select Channel </option>
-                                <option value="Twitter">Twitter</option>
-                                <option value="Facebook">Facebook</option>
-                                <option value="Linkedin">Linkedin</option>
-                                <option value="Youtube">Youtube</option>
-                                <option value="Friend">Friend</option>
-                                <option value="Whatsapp">Whatsapp</option>
-                                <option value="Instagram">Instagram</option>
-                                <option value="Bill Board">Bill Board</option>
-                                <option value="Sales officer">Sales officer</option>
-                                <option value="Other">Other</option>
-                            </select><br>
+                            <div class="first">
+                                <label id="survey">How did you hear about us?</label><br>
+                                <select id="survey">
+                                    <option value="" selected disabled hidden> Select Channel </option>
+                                    <option value="Twitter">Twitter</option>
+                                    <option value="Facebook">Facebook</option>
+                                    <option value="Linkedin">Linkedin</option>
+                                    <option value="Youtube">Youtube</option>
+                                    <option value="Friend">Friend</option>
+                                    <option value="Whatsapp">Whatsapp</option>
+                                    <option value="Instagram">Instagram</option>
+                                    <option value="Bill Board">Bill Board</option>
+                                    <option value="Sales officer">Sales officer</option>
+                                    <option value="Other">Other</option>
+                                </select><br>
+                            </div>
                         </div>
                         <div class="input">
-                            <label>Password</label><br>
-                            <input type="password" placeholder="Enter password"><br>
-                            <label>Confirm Password</label><br>
-                            <input type="password" placeholder="Enter password again">
+                            <div class="first">
+                                <label>Password</label><br>
+                                <input type="password" placeholder="Enter password"><br>
+                            </div>
+                            <div class="first">
+                                <label>Confirm Password</label><br>
+                                <input type="password" placeholder="Enter password again">
+                            </div>
                         </div>
                         <footer>
                             <p>By clicking continue, I agree to <a href="#">Terms of Use</a> and acknowledge that I <br> have read the <a href="#">Privacy Policy.</a></p>
